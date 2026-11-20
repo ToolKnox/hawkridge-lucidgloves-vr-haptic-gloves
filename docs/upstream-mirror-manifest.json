@@ -1,0 +1,709 @@
+{
+ "kind": "github",
+ "subdir": "",
+ "repo": "https://github.com/LucidVR/lucidgloves",
+ "commit": "76472c70887689ae97e4fb4f5a976eb6d715a191",
+ "tree": "bf9d1f3e8dcd6080ece7409ad1a7ec1ed6e65758",
+ "commit_date": "2025-10-29T16:21:07Z",
+ "files": [
+  {
+   "path": ".gitignore",
+   "bytes": 41,
+   "git_blob_sha": "3f4c02aabaa84ff0a722f6a3ccabd407f4924165",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "bbef8108ced6a748cb8f78aa3d46bda55a50b6b2739171a61918a0cbf72e5e97"
+  },
+  {
+   "path": "LICENSE",
+   "bytes": 1064,
+   "git_blob_sha": "aa29a64abf1b49e65b931dd3b1937b88b4b804e3",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "43dbeb16bc2256c0bfbb7d52bb32141ba2bfc33474ff8243349b5ed6015ee597"
+  },
+  {
+   "path": "README.md",
+   "bytes": 3354,
+   "git_blob_sha": "1e371f5a33bcbbfcab52409bc4e6019ae6b84a0f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e80df036e10d42e8e2c843f3cbe1c467d39ec4c64a3215643b605128baf5df7d"
+  },
+  {
+   "path": "Readme_Languages/README_CN.md",
+   "bytes": 3781,
+   "git_blob_sha": "c600b54e8ddeac42e4deb9f1432690e0524a8cbf",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "02a0af4165518521196ce8ce30c33aaceb186130ad1991db236bbeb9a0b1d7d8"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/AdvancedConfig.h",
+   "bytes": 2367,
+   "git_blob_sha": "e5245f59b79e93387b3bfcfeb184b2b577bab681",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "7359556028b44cb9d0eae4d2df4b6b32d29b6355047d6eb265714114cbc8b2f8"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/Config.h",
+   "bytes": 6994,
+   "git_blob_sha": "47269b718c9aa7afa55e489cedb41e4e963d6327",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b79c10b9adc72c3f046b14fd3edfb519d239f232c8c95b1133cb3e3a3768f314"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/README.md",
+   "bytes": 168,
+   "git_blob_sha": "8c5e8835aa8f15e3866a763062a574830d58cf1f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "46a5b99a17a09145ac9c50ff6431dbafc369e198efcc391971a9de04122e01ab"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/lucidgloves-firmware.ino",
+   "bytes": 401,
+   "git_blob_sha": "912cf25be995a588a07e53a6510f65cdcc736a4d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "d60f4d75b462dd1c038616de5331db5ad5b87893b945d32b7d3529a405463116"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/BTSerialCommunication.cpp",
+   "bytes": 896,
+   "git_blob_sha": "2df700b9827ccdbb33b6fc48e91991b0857f7643",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "691c936aef213a27810e6c979c2535566b93351206f16cf2a7ad103c6d1e7933"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/BTSerialCommunication.h",
+   "bytes": 437,
+   "git_blob_sha": "c463631a07e31a078c81cd45ee76f878b2a3b16f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "63316295d1639f3398279683b52a37b8ba3aea682f2206238948d9dfceede926"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/ICommunication.h",
+   "bytes": 230,
+   "git_blob_sha": "45e2dfdff73ef4a540f2d9f8bddcf6ef379d024b",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e587c00ed707ea2e9b81496b0c7325e8d2adfc4bf63468ea320cb5cdae6988b9"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/SerialCommunication.cpp",
+   "bytes": 569,
+   "git_blob_sha": "521dcde88e3489d8c194692b979f3f0b3c70a466",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "09bddf37281c8052a1ae8213f722db79f2fc6e37eff58678ad9211516b03aee8"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/SerialCommunication.h",
+   "bytes": 346,
+   "git_blob_sha": "71ceb9fae4157f17176b661d5ca352c1955594ae",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "33e4795081202bb4131a12413abaf53700b07f48068b727f9b4a3440c11ab5d9"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/WIFISerialCommunication.cpp",
+   "bytes": 1496,
+   "git_blob_sha": "0a1ccf173927c291164e4a84d81323fe735f8b74",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "0512470e6238603d6660cd0bcc03cd7599eb49cca628bfea2bfdf51d6b8e4780"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Communication/WIFISerialCommunication.h",
+   "bytes": 463,
+   "git_blob_sha": "96e020eeb5a1f86ee8fb7e4196d4520a87e4deb0",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "cac99fdf78a09fbd2bdd76532a9877a0950fb1a23326ef49436c1a27de1c0b3f"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/Gesture.cpp",
+   "bytes": 404,
+   "git_blob_sha": "49bab54001079caa9d8e3b487656711081409e73",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "01b16a295c69852858e2660b20e150ecb145f0f3addb610eb793dc09663b0142"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/Gesture.h",
+   "bytes": 187,
+   "git_blob_sha": "bdcc49690fe2e32e0ddea03732a83c07d0c2b615",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "295bf22b2838a3aed02950c4fc455efd367a4282b6fb570e462c4a8499b721b4"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/Haptics.cpp",
+   "bytes": 1223,
+   "git_blob_sha": "7fdeea89ec6085fe0603064fd71ca9d9fb1d89fa",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "8da5309a4df032f25e2a78668bcc1409be1ac0d994f6e1aa1a20e3cc0f1f317f"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/Haptics.h",
+   "bytes": 471,
+   "git_blob_sha": "7de6b06e0c850163135aeca1f103670963a923b6",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "efd54a3d939e1f4a31c0355c9edaa53ee819449693957eb26675538bc23054c1"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/InputManager.cpp",
+   "bytes": 9870,
+   "git_blob_sha": "06a78cb79e3488fdbe576f70629b4365832c063c",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "74fa4017dce9540cf61afe84b0d1069950c4798c205dc1af28599016decf0601"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Controller/InputManager.h",
+   "bytes": 2884,
+   "git_blob_sha": "7ad453c6d58d4e4c98a4fe5f70b09f6804317cd0",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "27a0c60ee84d2aee591067d842592578d3395793c5c4859ac07cf2ee824e7db2"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Encoding/AlphaEncoding.cpp",
+   "bytes": 1647,
+   "git_blob_sha": "571e587e2281d37deebf63d6b252eab628a08cb9",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "79e46cb891793bf1f5caa27d7d22a34b941b551dcd71e831ce3dd249924fa45c"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Encoding/AlphaEncoding.h",
+   "bytes": 302,
+   "git_blob_sha": "57ef3e9bb13beea1ba74e8b5e8ac6cf99ac50651",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "596b05e1b4616d2ab7991898fe01a6050c0acbfbcbfb39fd48b412ba4f25a434"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Encoding/IEncoding.h",
+   "bytes": 238,
+   "git_blob_sha": "059d8f2972ad04bf5e832af2ba45bdfd37780cc2",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "a283a1f1092f9c8227a0eb914f71f92508a17d75549cc5e2b5e397590f59d2b9"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Encoding/LegacyEncoding.cpp",
+   "bytes": 808,
+   "git_blob_sha": "56e58521450154d26f7e665f212aa4588db01c5f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "a6342d7c53c81aa03ca3b9eff02c54cae458d4f11a5f9671984b1b792d797464"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Encoding/LegacyEncoding.h",
+   "bytes": 237,
+   "git_blob_sha": "590a5d4ff0368dd0051bb8e816edafd82e34b38f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "f5904c2ee701aa29f448209ba51b60d26d652dad26ef5a12c705f1ae769110c8"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Main.cpp",
+   "bytes": 5329,
+   "git_blob_sha": "9d8c72a01dda8b09b9e2f550953de2395c6a29db",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "fbd7ed6c66a689dca7ff5d85ba951d954be1431bc67c574405d5a7266d63381a"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Main.h",
+   "bytes": 821,
+   "git_blob_sha": "45b56ca51370fe42ebb893baf3e34b480f45aa69",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "28fb248ecb69bdbd980b03caf8416e9d7f35be5978ce9db6f562b4108bf32270"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Util/ConfigUtils.h",
+   "bytes": 1393,
+   "git_blob_sha": "e22f6897060f364deb9f8f786cbbd261573a7a74",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "f36c530a3758834e20856e7a7ea4cb9726bfc7526db4335c05470837c018bd50"
+  },
+  {
+   "path": "firmware/lucidgloves-firmware/src/Util/DataStructs.h",
+   "bytes": 862,
+   "git_blob_sha": "473bec2697a059165d831ae6b8289190d98e4c0e",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "281a99b62caeaa8f44f22a28608ef620e685ffd651b0e6a5f509a971e913f635"
+  },
+  {
+   "path": "hardware/MicrocontrollerMounts/ESP32_Wroom_Holder_Desoldered_JST.STL",
+   "bytes": 63784,
+   "git_blob_sha": "7388c3db12945c61e4242423ecaf95770133289a",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "7f34b0f686d347fb54920339933721cf807388d11d44f14db397d25ab54b1f9d"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1R2_EasySpool.STL",
+   "bytes": 109484,
+   "git_blob_sha": "72e7940e710ff7f6758a6cc4a00860b4e78d6846",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "578a12e2e829ffcde4cbd57925e6ab8f030a8fed962d42c9de88361beb794c7c"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1R2_SpoolCover.STL",
+   "bytes": 76784,
+   "git_blob_sha": "fd1428bdfafb292c2d0466fb75b1d790181459ff",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e9cecb3084308babed1f213cd3ab9fc56213964b24da2db8ddf8d2e5a51d2988"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1R2_SpoolCover_Taller.STL",
+   "bytes": 76784,
+   "git_blob_sha": "a971ba5a74eeb07b893c26f02f281ad19211b438",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "239529d6e3bc26cbfcfba6c8274b33a18aff83b87545953bcb960cbc3d121c77"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1_GuideNode.STL",
+   "bytes": 111684,
+   "git_blob_sha": "47b9843b5daf59586bbcbbe8c1abeddc273c8322",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b3e5f26a821b4571a6277e3cf116fbc3ceec26e4b2f9ffe9536da943e847814b"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1_Holder.stl",
+   "bytes": 162184,
+   "git_blob_sha": "8de38ee5f471642dec930c4c6236481ecea1f02c",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "83f56cb13633e371f8b874bee10e7df8354f1b9e1d4606125fe14af7806983b9"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1_Tensioner.STL",
+   "bytes": 88384,
+   "git_blob_sha": "6e31b06f5f439d7b2fc9fc7d85edd7596624b628",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e7e09c4eddb0c8682e026720cf7a78f11dd3e4fb7ca3c02203fe8b972cd01f0e"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3.1_Wirecover_PublicBeta.STL",
+   "bytes": 18984,
+   "git_blob_sha": "645502f8382197c4dc4865a69ead03a3cfeb31ff",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "6d0dc00d9dc22889ea3d0c9b9f2c447d812e6407cde97c163f41853f90485d35"
+  },
+  {
+   "path": "hardware/Prototype3.1/Prot3_EndCap.STL",
+   "bytes": 392884,
+   "git_blob_sha": "a918e055ea40eef21d7c9f1acf8f6dc382c58c5d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b06acb88f19af4bd0647fb96c3cff292e180d4b81394c71020b89dbf87a641c5"
+  },
+  {
+   "path": "hardware/Prototype3.1/README.md",
+   "bytes": 506,
+   "git_blob_sha": "302737434b77873a41b70be87974ed68e9e6687a",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "8be7725b936ab3d72b4ca0db65103e1a3a95589fe8aa34b53c8c974219c34385"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_Cover.STL",
+   "bytes": 78384,
+   "git_blob_sha": "765603b0edc975e135cf43991ad8e55466687032",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "2c50828994b36b91f3ff279aa82938f5f8e1ea3e3db871a61b4138e0c6f749fc"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_EndCap.STL",
+   "bytes": 392884,
+   "git_blob_sha": "a918e055ea40eef21d7c9f1acf8f6dc382c58c5d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b06acb88f19af4bd0647fb96c3cff292e180d4b81394c71020b89dbf87a641c5"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_GuideRing.STL",
+   "bytes": 761984,
+   "git_blob_sha": "d4ae661244a66ca709c0a3590085ddadf7f6760b",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "542870bda1e03dd767ead6dc50ddc78000c3989c0a8d27251eaf863b91f0d410"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_Holder.STL",
+   "bytes": 60384,
+   "git_blob_sha": "9c2d9cdf9a86ff1119352a86e9d1c951d012e0a7",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "4e1791a4cb445a2b342ae8e4cdccf4760bd509f8c6f76c0e9519bb02af9b4db3"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_Spool.STL",
+   "bytes": 106584,
+   "git_blob_sha": "a7e2fa77e36a3ec0ecd1d4f7d11249f0dd2a0269",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "7ad95648cb27aaf6710d66d25ca57f2ba599fe2c23e21a3d2186d06d6d91d286"
+  },
+  {
+   "path": "hardware/Prototype3/Prot3_Tensioner.STL",
+   "bytes": 211184,
+   "git_blob_sha": "a2ade1f0dc4d780afc510584661f5156025dd7c5",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "6dc801677ff352b0a8eb66b4010667732ddc8aabff477ed120aa70d60185eb40"
+  },
+  {
+   "path": "hardware/Prototype4.1/GreenPotElasticHolder_Proto4.1.STL",
+   "bytes": 141784,
+   "git_blob_sha": "453736a1a22851328ef2da38b767395ca24f22bf",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e83f1dd615a1af38cca4a19a044d86e3eb426d4f930f247f675ff80eb818e6af"
+  },
+  {
+   "path": "hardware/Prototype4.1/GreenPotSildeHolder_Proto4.1.STL",
+   "bytes": 155484,
+   "git_blob_sha": "a275d0b45004a0c01ea3c299e04850fa7c46757e",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "86ffe66c1c8ac9a38a5a00f71b42a638601c680234fdefae7a541e2d75650a0f"
+  },
+  {
+   "path": "hardware/Prototype4.1/GuideNode_upgraded.STL",
+   "bytes": 94184,
+   "git_blob_sha": "dc2d6d2c0647ac263896c20e997d4df36c048d1a",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e3c7177a267c243b115e035061f63f3ef16d2c301df307e5f26ce04ee8862b98"
+  },
+  {
+   "path": "hardware/Prototype4.1/HapticSpool_Proto4.1.STL",
+   "bytes": 114884,
+   "git_blob_sha": "83eb62ce3eb6df366d9e4840b2f8f59f9271e20f",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "760d9136d02724d0359daef6524e7119a56c7affcbfdbdc39f0fb599c90b7130"
+  },
+  {
+   "path": "hardware/Prototype4.1/Vive3.0_MountSlider_v1.2.STL",
+   "bytes": 120184,
+   "git_blob_sha": "47051f2442c8af06e519404b1665c5115b8088be",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "babe5f582503de256295a4490e235274d1fed303b056c2abb64c50fd002fc32b"
+  },
+  {
+   "path": "hardware/Prototype4.1/WLPotElasticHolder_Proto4.1.STL",
+   "bytes": 149084,
+   "git_blob_sha": "b5f69d71a16892c9d4e71b57130cc54240e7677d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "848608960b04a824420776da4e2862e36ca8359bc2f20f9a17ca0a52bfe31159"
+  },
+  {
+   "path": "hardware/Prototype4.1/WLPotSlideHolder_Proto4.1.STL",
+   "bytes": 163084,
+   "git_blob_sha": "f5e9bdb73c0ceb7048a02f0cf855d90716b50667",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "27531408d555e136117d901f9bc7e423d2a4b07f94cfc6f06872987448bd4a55"
+  },
+  {
+   "path": "hardware/Prototype4/GreenPotElasticHolder.stl",
+   "bytes": 62784,
+   "git_blob_sha": "8f2054e1f02ab140e997407dae64864de500d74d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b1c893e8fee13df212c8029a1ea79ab6edf148ce9d166104848a2e4ea4e17b89"
+  },
+  {
+   "path": "hardware/Prototype4/GreenPotSlideHolder.STL",
+   "bytes": 122384,
+   "git_blob_sha": "ead01b95123d1dda914afbea861e70e1d7bad4a9",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "1f68ea0fcb263cc96cc6978fea3a5b1f1ba84b7db04b68edfb435f4b6b20f5e0"
+  },
+  {
+   "path": "hardware/Prototype4/HapticSpool.STL",
+   "bytes": 120084,
+   "git_blob_sha": "2639b9017d4137258a737998c8aaf8cdc18281fa",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "171011e725bca45e91678094c47d26ca085727a359cd3375d95d476ecef2d267"
+  },
+  {
+   "path": "hardware/Prototype4/Prot4_EndCap.STL",
+   "bytes": 392884,
+   "git_blob_sha": "a918e055ea40eef21d7c9f1acf8f6dc382c58c5d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b06acb88f19af4bd0647fb96c3cff292e180d4b81394c71020b89dbf87a641c5"
+  },
+  {
+   "path": "hardware/Prototype4/Quest2_MountSlider.STL",
+   "bytes": 24284,
+   "git_blob_sha": "8ac0a0626ba68f6b49b8107704f2a0f1696e1c4d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "5e4ff585960c95f0b804f36de344f99a29f6ea287e0ef486802738276171ffb5"
+  },
+  {
+   "path": "hardware/Prototype4/RigidMount_leftHand.STL",
+   "bytes": 77884,
+   "git_blob_sha": "d9788d28669d2f1401c5620f8732c2578d05f690",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "0943b14b8b37008388cefe898be0e2ffd4be852f5463ec52d0c17a800eadcc94"
+  },
+  {
+   "path": "hardware/Prototype4/RigidMount_rightHand.STL",
+   "bytes": 77884,
+   "git_blob_sha": "875daad823aa12fc12b299b0e9f48f0d83239f64",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "55f91009f34217680a061e8f719448c8528d0cdaac23e792f25cde4082610100"
+  },
+  {
+   "path": "hardware/Prototype4/SpoolCover_open.STL",
+   "bytes": 64984,
+   "git_blob_sha": "d4f1566dd5fd430e209d731bfc104e023c1e0120",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "28359df5863d96886cff1d841dd4e2a82d453015e161fc1f2a27e5fa2879ea29"
+  },
+  {
+   "path": "hardware/Prototype4/Tensioner_GreenPot.STL",
+   "bytes": 87384,
+   "git_blob_sha": "9385363c64e3987250ca24d47dde4cfdaf3c52b0",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "35a65db6312afad3e44c024922b99e5423356da0f44f4941b792a94735a917ad"
+  },
+  {
+   "path": "hardware/Prototype4/Tensioner_WLPot.STL",
+   "bytes": 88384,
+   "git_blob_sha": "6e31b06f5f439d7b2fc9fc7d85edd7596624b628",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e7e09c4eddb0c8682e026720cf7a78f11dd3e4fb7ca3c02203fe8b972cd01f0e"
+  },
+  {
+   "path": "hardware/Prototype4/Vive3.0_MountSlider_v1.STL",
+   "bytes": 114284,
+   "git_blob_sha": "7551e1c63412243d5adc708814c417953b5541be",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "7e1734bbee479c767dc3062cbc58e625cd0f9a4c650e827f0c5e256500bf1b75"
+  },
+  {
+   "path": "hardware/Prototype4/WLPotElasticHolder.STL",
+   "bytes": 121384,
+   "git_blob_sha": "895b019b745163ae59283ab72bd3e97c64f93e85",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "ad0feaadaa2289bd4028771fc4abcb677b15e053daf66b0c458a0e74bfa9e949"
+  },
+  {
+   "path": "hardware/Prototype4/WLPotSlideHolder.STL",
+   "bytes": 128184,
+   "git_blob_sha": "e6d51ce6408a8bb645811b73a0a8b1be559c2dc4",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "d7edcb25f5f88268ab4ca9efaa13be2b0a12d69e0181e68a01d549a3280a53d5"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/BearingRetainer_v1.2.STL",
+   "bytes": 39684,
+   "git_blob_sha": "6828ba552f5a7a5058cdc5de12b12d7a6c2bb0f2",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "893ae5b40142109b7123cdd17a7d7bedd6b11492d412e19c409970069ccb25ab"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/EndRings/EndRing_v1.2_13mm.STL",
+   "bytes": 104284,
+   "git_blob_sha": "603ff3cf354aab1764f9cc9c74446eb8f6a28bd0",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "9b13b1695122adb580cc368ab17d173a604e1134eecaa7e8efbb76f05567917a"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/EndRings/EndRing_v1.2_15mm.STL",
+   "bytes": 104884,
+   "git_blob_sha": "de3644251206c49ce1bf933a52d95ef5dd68c1e8",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "1ccda140aa069c8e5791aa26e37613236f7d0479183e7d7f24a36b69743b3c18"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/EndRings/EndRing_v1.2_16mm.STL",
+   "bytes": 104884,
+   "git_blob_sha": "29feedf7f2f13909fbc457d2f729caa06b598865",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "4337661399eb857e3df84541d034d8dac53d7c9ad023b03717e4a2024bdb05ff"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/EndRings/EndRing_v1.2_18mm.STL",
+   "bytes": 109084,
+   "git_blob_sha": "3f7d8a564999ffb3e0f6568af70e0827fcd747ba",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "b83c992f23ea3575ca43479eb081caf90f552951a687a963ce8ba1ecbb23156f"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/FingerRack_v5.2.STL",
+   "bytes": 67684,
+   "git_blob_sha": "b688f07efa9ae007138b0c90599ee91a964361a2",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "5b11c0a9ef77207c2febc97e738d624cc23b4995abc19163e3869a1ac61c06d5"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_15mm.STL",
+   "bytes": 319884,
+   "git_blob_sha": "ba45dd5b7eb93a69b3db4f0279d41cd6e312a029",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "c44731fe5267b771fced21e67df7e19a9469d61c651ccc116b6d34d87645665d"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_17mm.STL",
+   "bytes": 329884,
+   "git_blob_sha": "f8177e62ba2e7071f7cf3f244c5ea6c9b1345a65",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e85d22a894b23d125088d2463c113bbf96fc17c505097c04ccc33ddc38205573"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_18mm.STL",
+   "bytes": 332284,
+   "git_blob_sha": "1075ded06b907c4eed18865bdbc05607eea78767",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "efbb7f4bb9b2f175fdb3d3dabfc04a8788700acefdffd273ffebeef53c29c9d8"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_19mm.STL",
+   "bytes": 335484,
+   "git_blob_sha": "dad118b5a095ffbaf6ee1bdd52cc9f2a35a26a2c",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "da68a6a22b7d102a75c2dea517b5978ba0e713904a0145ee3dfabd2893dea597"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_21mm.STL",
+   "bytes": 340284,
+   "git_blob_sha": "aad7bc7df04dd25ae47e24814bbd23dc4789012b",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "61c613186b667db85c06b76851fbc2ff5a093dbb9b0aaaa52867b8bc04c5adf6"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/GuideRings/GuideRing_v1.2_22mm.STL",
+   "bytes": 341884,
+   "git_blob_sha": "02c319ed4a6d1db1fd8732710c1e2e553eb62c12",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "3a5beaf2fdc41468eb604b7c7f31a094f2513281bb673feb224b46eee20ac239"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/MagnetPinion_v5.3.STL",
+   "bytes": 266684,
+   "git_blob_sha": "bd2ead155bb445a84ebafe295817668e353d02b9",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "7be16a07c558a418c7fc06a77e7b2a64a29db2ff5705e61d2eb19fe7f2455e6c"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/MountSpacer_V1.STL",
+   "bytes": 30084,
+   "git_blob_sha": "26fc9c1c9ff3dfe1b646bdd397cc926fe946fb2c",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "f9cf7cc1faae7ef410a68d1017a3147598cbb0def27afb14e9d981bc82aa4d42"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/RigidMount_Splay_v3.STL",
+   "bytes": 228884,
+   "git_blob_sha": "c45152e5067611e8aaf88443298b5cf29cd28893",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "9fd3c085dee3c47b1b1208dcb29fe2646f3d215003fa910f64b83ac8af70238c"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/RigidMount_Splay_v4.STL",
+   "bytes": 227684,
+   "git_blob_sha": "287b8eea493bff444b9c3b774d41ffd286f1e0f6",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "5c00d3297dcb7a063031037cf2dfc38fec4f01356b78f1277569444f49e9b5e4"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/SensorHousing_v5.9.STL",
+   "bytes": 141784,
+   "git_blob_sha": "ae2b914822b4c2c55214ed7d4a445995b5b1fb5e",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "3b31877b25b3829c161d6d14318ec984c517d5b76999e01ef3923d7e444cb44d"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/SensorTop_v4.0.STL",
+   "bytes": 21484,
+   "git_blob_sha": "5af251fe3751f03eb124ae0f443231b44a44b7fb",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "5c73be2dc9dd7464504c2e234b0905ed389d9422c64e792da7066fa3b01ab064"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/ServoGear_v3.3.STL",
+   "bytes": 151084,
+   "git_blob_sha": "0dee5a3da696d892cf16927f4750db23730153f6",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "f469460bd41e84becccbabf2cc2d3c93f0edf928c313bfabc4776ef02154a92d"
+  },
+  {
+   "path": "hardware/Prototype5_BETA/ServoRack_v3.6.STL",
+   "bytes": 20584,
+   "git_blob_sha": "e433ed60bc291596981ab8c5da6af33829422988",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "907db216aca2870e0c7c610a07f94016aa2d04d74ffb656cd3a1465428b36f5e"
+  },
+  {
+   "path": "hardware/README.md",
+   "bytes": 478,
+   "git_blob_sha": "b973f57c4fc851e95e27299743c69a2efd06649d",
+   "blob_match": true,
+   "lfs_pointer": false,
+   "sha256": "e9e244aae46ba8e2ccc2b06cb1bfe965a889ef2d4e42c4d0da77cdb84645337b"
+  }
+ ],
+ "excluded": [],
+ "all_blob_match": true,
+ "lfs_pointers": []
+}
